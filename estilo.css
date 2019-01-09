@@ -1,0 +1,163 @@
+/*Color de fondo--*/
+body{
+   background-color: #817b84;
+  margin: auto;
+  text-align: center;
+}
+
+h2{
+  font-family: helvetica;
+}
+/*Parpadeo Bienvenido estilo--*/
+.text {
+  
+  font-size:28px;
+  font-family:helvetica;
+  weight:bold;
+  color:#fefcff;
+  text-transform:uppercase;
+}
+/*Parpadeo Bienvenido animación--*/
+.parpadea {
+  
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+/*Estilo bitón primer pantalla--*/
+#boton1{
+  
+  width: 200px;
+  margin: 40px auto;
+  padding: 1em 0;
+  text-align: center ;
+  position: relative;
+  border: none;
+  overflow: hidden;
+  z-index: 1;
+  outline:none;
+  background: -webkit-linear-gradient(center top , #7e7284 0%, #524459 100%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7e7284), color-stop(100%,#524459));
+ -moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+  text-shadow: 1px 1px 1px #3a393a;
+  -webkit-box-shadow: 0px 6px 0 #443d44;
+-webkit-box-shadow: 0px 6px 0 #383038;
+  }
+  #boton1:active{
+  position:relative;
+top:3px;
+  -webkit-box-shadow:0px 3px 0 #443d44;
+-webkit-box-shadow:0px 3px 0 #383038;
+  background: -webkit-linear-gradient(center top , #524459 0%, #7e7284 100%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#524459), color-stop(100%,#7e7284));
+    }
+
+#btnEnviar{
+  width: 200px;
+  margin: 40px auto;
+  padding: 1em 0;
+  text-align: center ;
+  position: relative;
+  border: none;
+  overflow: hidden;
+  z-index: 1;
+  outline:none;
+  background: -webkit-linear-gradient(center top , #7e7284 0%, #524459 100%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7e7284), color-stop(100%,#524459));
+ -webkit-border-radius: 10px;
+-webkit-border-radius: 10px;
+  text-shadow: 1px 1px 1px #3a393a;
+  -webkit-box-shadow: 0px 6px 0 #443d44;
+-webkit-box-shadow: 0px 6px 0 #383038;
+  
+}
+#btnEnviar:active{
+  position:relative;
+top:3px;
+  -webkit-box-shadow:0px 3px 0 #443d44;
+-webkit-box-shadow:0px 3px 0 #383038;
+  background: -webkit-linear-gradient(center top , #524459 0%, #7e7284 100%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#524459), color-stop(100%,#7e7284));
+    }
+#btnReiniciar{
+  width: 200px;
+  margin: 40px auto;
+  padding: 1em 0;
+  text-align: center ;
+  position: relative;
+  border: none;
+  overflow: hidden;
+  z-index: 1;
+  outline:none;
+  background: -webkit-linear-gradient(center top , #7e7284 0%, #524459 100%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7e7284), color-stop(100%,#524459));
+ -webkit-border-radius: 10px;
+-webkit-border-radius: 10px;
+  text-shadow: 1px 1px 1px #3a393a;
+  -webkit-box-shadow: 0px 6px 0 #443d44;
+-webkit-box-shadow: 0px 6px 0 #383038;
+  
+}
+#btnReiniciar:active{
+  position:relative;
+top:3px;
+  -webkitz-box-shadow:0px 3px 0 #443d44;
+-webkit-box-shadow:0px 3px 0 #383038;
+  background: -webkit-linear-gradient(center top , #524459 0%, #7e7284 100%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#524459), color-stop(100%,#7e7284));
+  
+}
+#btnComenzar{
+  width: 200px;
+  margin: 40px auto;
+  padding: 1em 0;
+  text-align: center ;
+  position: relative;
+  border: none;
+  overflow: hidden;
+  z-index: 1;
+  outline:none;
+  background: -webkit-linear-gradient(center top , #7e7284 0%, #524459 100%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7e7284), color-stop(100%,#524459));
+ -webkit-border-radius: 10px;
+-webkit-border-radius: 10px;
+  text-shadow: 1px 1px 1px #3a393a;
+  -webkit-box-shadow: 0px 6px 0 #443d44;
+-webkit-box-shadow: 0px 6px 0 #383038;
+  
+}
+#btnComenzar:active{
+  position:relative;
+top:3px;
+  -moz-box-shadow:0px 3px 0 #443d44;
+-webkit-box-shadow:0px 3px 0 #383038;
+  background: -moz-linear-gradient(center top , #524459 0%, #7e7284 100%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#524459), color-stop(100%,#7e7284));
+  
+}
+
